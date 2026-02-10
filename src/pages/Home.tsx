@@ -8,7 +8,7 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import { ArrowRight, Users, Award } from "lucide-react";
 
 // Import images
-import logoRustico from "@/assets/Logo-rustico-completa.png";
+import logoRustico from "@/assets/logo-rustico-nova.png";
 
 const stats = [
   { value: 10000, suffix: "+", label: "Clientes atendidos", icon: Users },
