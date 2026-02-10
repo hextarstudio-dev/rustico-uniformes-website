@@ -63,8 +63,10 @@ export default defineConfig(({ mode }) => ({
     // Compress assets
     assetsInlineLimit: 4096,
     chunkSizeWarningLimit: 1000,
-    // Enable code splitting for better caching
-    chunkSizeWarningLimit: 1000,
+    // Ensure proper MIME types
+    assetsDir: 'assets',
+    outDir: 'dist',
+    emptyOutDir: true,
   },
   // Optimize deps
   optimizeDeps: {
