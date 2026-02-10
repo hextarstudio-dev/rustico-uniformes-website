@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <Layout>
       {/* Hero Section - More Impact */}
-      <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-20 pb-8">
+      <section className="relative min-h-[85vh] flex items-center overflow-hidden pt-20 lg:pt-32 pb-8">
         {/* Background gradient animation */}
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
         <div className="absolute top-1/4 right-0 w-[600px] h-[600px] bg-primary/10 blur-[150px] rounded-full animate-pulse-slow" />
