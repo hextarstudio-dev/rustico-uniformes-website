@@ -26,24 +26,8 @@ const HomePage = () => {
         
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-            {/* Logo Side */}
-            <ScrollReveal animation="fade-right" className="flex justify-center lg:justify-start items-center order-2 lg:order-1">
-              <div className="relative">
-                {/* Glow behind logo */}
-                <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full scale-75" />
-                <img
-                  src={logoRustico}
-                  alt="Rústico Uniformes"
-                  className="w-80 sm:w-96 md:w-[28rem] lg:w-[32rem] h-auto relative z-10"
-                  loading="eager"
-                  fetchPriority="high"
-                  decoding="sync"
-                />
-              </div>
-            </ScrollReveal>
-
-            {/* Text Side */}
-            <ScrollReveal animation="fade-left" delay={0.2} className="text-center lg:text-left order-1 lg:order-2">
+            {/* Text Side - Agora na esquerda */}
+            <ScrollReveal animation="fade-left" delay={0.2} className="text-center lg:text-left order-1 lg:order-1">
               <p className="text-primary font-semibold uppercase tracking-[0.2em] text-xs md:text-sm mb-4">
                 Uniformes personalizados premium
               </p>
@@ -80,6 +64,22 @@ const HomePage = () => {
               <p className="text-muted-foreground font-institutional text-sm">
                 Pedido mínimo: <span className="text-foreground font-semibold">15 peças</span>
               </p>
+            </ScrollReveal>
+
+            {/* Logo Side - Agora na direita */}
+            <ScrollReveal animation="fade-right" className="flex justify-center lg:justify-end items-center order-2 lg:order-2">
+              <div className="relative">
+                {/* Glow behind logo */}
+                <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full scale-75" />
+                <img
+                  src={logoRustico}
+                  alt="Rústico Uniformes"
+                  className="w-80 sm:w-96 md:w-[28rem] lg:w-[32rem] h-auto relative z-10"
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="sync"
+                />
+              </div>
             </ScrollReveal>
           </div>
 
