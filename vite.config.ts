@@ -61,7 +61,7 @@ export default defineConfig(({ mode }) => ({
       },
     },
     // Compress assets
-    assetsInlineLimit: 4096,
+    assetsInlineLimit: 0, // Desabilitar inline forçado
     chunkSizeWarningLimit: 1000,
     // Ensure proper MIME types
     assetsDir: 'assets',
