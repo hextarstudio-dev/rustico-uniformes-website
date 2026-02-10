@@ -1,15 +1,9 @@
+/* Import Gotham-like font (Montserrat as web alternative), extended font for body, and League Spartan for logo */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* 
-  RÚSTICO UNIFORMES - Design System
-  Paleta: Verde #12B867, Preto, Cinza Escuro, Branco
-  Tipografia: Gotham (títulos), Stretch Pro (corpo/institucional)
-*/
-
-/* Import Gotham-like font (Montserrat as web alternative), extended font for body, and League Spartan for logo */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
