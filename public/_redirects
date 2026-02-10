@@ -1,2 +1,11 @@
-# SPA fallback for all routes
-/*    /index.html   200
+# SPA routing for Cloudflare Pages
+/escolas    /index.html   200
+/empresas    /index.html   200
+/fitness    /index.html   200
+/igrejas    /index.html   200
+/industria    /index.html   200
+/governos    /index.html   200
+/departamentos    /index.html   200
+/dri-fit    /index.html   200
+/institucionais    /index.html   200
+/sobre    /index.html   200
