@@ -203,14 +203,14 @@
 
   .btn-hero {
     @apply bg-primary text-primary-foreground font-bold text-lg px-10 py-5 rounded-sm;
-    @apply hover:scale-105 hover:brightness-110 transition-all duration-300 shadow-lg;
+    @apply hover:scale-105 hover:brightness-110 transition-all duration-500 shadow-lg;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     box-shadow: 0 4px 20px hsl(152 82% 40% / 0.3);
   }
   
   .btn-hero:hover {
-    box-shadow: 0 0 60px hsl(152 82% 40% / 0.5);
+    box-shadow: 0 0 35px hsl(152 82% 40% / 0.4);
   }
 
   .btn-whatsapp {
